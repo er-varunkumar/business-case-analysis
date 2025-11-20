@@ -91,3 +91,9 @@ This repository showcases comprehensive business analysis and strategic thinking
 ---
 
 ## 📁 Repository Structure
+business-case-portfolio/
+├── 📁 ecommerce/ # E-commerce strategies & analyses
+├── 📁 digital-transformation/ # Digital transformation cases
+├── 📁 product-strategy/ # Product launch & growth strategies
+├── 📁 templates/ # Reusable templates & frameworks
+└── 📁 frameworks/ # Methodologies & best practices
