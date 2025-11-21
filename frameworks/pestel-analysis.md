@@ -16,6 +16,41 @@ The PESTEL framework comprises six key dimensions that collectively provide a 36
 - **Environmental:** Climate change, sustainability, environmental regulations
 - **Legal:** Employment law, consumer protection, health & safety
 
+```mermaid
+graph TD
+    A[PESTEL Analysis] --> B[Political]
+    A --> C[Economic]
+    A --> D[Social]
+    A --> E[Technological]
+    A --> F[Environmental]
+    A --> G[Legal]
+    
+    B --> B1[Government Policies]
+    B --> B2[Political Stability]
+    B --> B3[Trade Regulations]
+    
+    C --> C1[Economic Growth]
+    C --> C2[Inflation Rates]
+    C --> C3[Exchange Rates]
+    
+    D --> D1[Demographic Trends]
+    D --> D2[Cultural Attitudes]
+    D --> D3[Health Consciousness]
+    
+    E --> E1[Innovation]
+    E --> E2[Automation]
+    E --> E3[Research & Development]
+    
+    F --> F1[Climate Change]
+    F --> F2[Sustainability]
+    F --> F3[Environmental Regulations]
+    
+    G --> G1[Employment Law]
+    G --> G2[Consumer Protection]
+    G --> G3[Health & Safety]
+```
+
+
 ## Deep Dive into PESTEL Dimensions
 
 ### 1. 🏛️ Political Factors
@@ -35,6 +70,15 @@ The PESTEL framework comprises six key dimensions that collectively provide a 36
 **Definition:** Economic conditions and trends that affect organizational performance and decision-making.
 
 **Key Economic Indicators:**
+
+```mermaid
+graph LR
+    A[GDP Growth] --> E[Economic Health]
+    B[Inflation Rates] --> E
+    C[Interest Rates] --> E
+    D[Unemployment] --> E
+    F[Exchange Rates] --> E
+```
 
 | Economic Indicator | Business Impact | Monitoring Frequency |
 |-------------------|-----------------|---------------------|
@@ -68,6 +112,16 @@ The PESTEL framework comprises six key dimensions that collectively provide a 36
 | **Internet of Things** | Smart products, data collection | Security vulnerabilities, privacy issues |
 | **Blockchain** | Supply chain transparency, secure transactions | Regulatory uncertainty, implementation costs |
 | **5G Technology** | Enhanced connectivity, new services | Infrastructure investment requirements |
+
+**Innovation Lifecycle:**
+
+```mermaid
+graph LR
+    A[Research] --> B[Development]
+    B --> C[Adoption]
+    C --> D[Maturation]
+    D --> E[Obsolescence]
+```   
 
 ### 5. 🌍 Environmental Factors
 **Definition:** Ecological and environmental aspects that impact industries, especially those affected by natural resources.
@@ -122,6 +176,16 @@ The PESTEL framework comprises six key dimensions that collectively provide a 36
 - Connect external factors to internal capabilities and weaknesses
 - Develop strategic initiatives based on combined insights
 
+```mermaid
+graph TD
+    A[PESTEL Factors] --> B[Opportunities]
+    A --> C[Threats]
+    B --> D[Strategic Initiatives]
+    C --> E[Risk Mitigation]
+    D --> F[Action Plan]
+    E --> F
+```
+
 ### Step 4: Continuous Monitoring System
 **Monitoring Framework:**
 - **Leading Indicators:** Early warning signals
@@ -161,6 +225,19 @@ The PESTEL framework comprises six key dimensions that collectively provide a 36
 - **Worst Case Scenario:** Pessimistic but plausible future
 - **Most Likely Scenario:** Expected future based on current trends
 - **Wild Card Scenario:** Low probability, high impact events
+
+```mermaid
+graph TD
+    A[Current PESTEL Analysis] --> B[Best Case Scenario]
+    A --> C[Worst Case Scenario]
+    A --> D[Most Likely Scenario]
+    A --> E[Wild Card Scenario]
+    
+    B --> F[Strategic Response A]
+    C --> G[Strategic Response B]
+    D --> H[Strategic Response C]
+    E --> I[Contingency Planning]
+```
 
 ### 2. Quantitative PESTEL Scoring
 **Factor Weighting System:**
@@ -243,15 +320,3 @@ PESTEL analysis remains a vital strategic tool for navigating complex business e
 - **Anticipating threats** and developing mitigation strategies
 - **Informing strategic decisions** with comprehensive environmental awareness
 - **Building organizational resilience** through proactive planning
-
-*"The greatest danger in times of turbulence is not the turbulence; it is to act with yesterday's logic." - Peter Drucker*
-
----
-**Research Sources:**
-1. Aguilar, F. J. (1967). *Scanning the Business Environment*
-2. Harvard Business Review - Strategic Planning Collections
-3. Journal of Business Strategy - Environmental Analysis Methods
-4. McKinsey & Company - Global Macroeconomic Trends
-5. World Economic Forum - Global Risk Reports
-
-*Last Updated: December 2024 | Version: 2.0*
